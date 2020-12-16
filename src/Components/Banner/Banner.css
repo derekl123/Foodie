@@ -1,0 +1,17 @@
+.banner{
+    background-color: #FFD166;
+    color: #fff;
+    text-shadow: #222;
+    height: 70px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.title{
+    margin: 0 auto;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}

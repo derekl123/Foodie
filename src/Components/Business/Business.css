@@ -1,0 +1,35 @@
+.Business_card{
+    position: relative;
+    border: 1px solid #eeeeef;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.Business_card:hover{
+    -webkit-box-shadow: 5px 5px 15px -5px #000000; 
+box-shadow: 5px 5px 15px -5px #000000;
+}
+
+.Business_card:active{
+    transform: translateY(1px);
+}
+
+.business_name{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    color: #222;
+}
+
+.business_image{
+   object-fit: cover;
+   width: 600px;
+   height: 200px;
+}
+
+.business_location{
+    font-size: .75rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    color: #222;
+}
